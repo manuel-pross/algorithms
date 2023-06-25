@@ -49,7 +49,7 @@ export function fibMatrix(n: number) {
 
 function power(matrix1: number[][], n: number) {
   if (n === 0 || n === 1) {
-    return 1;
+    return;
   }
 
   const matrix2 = [
